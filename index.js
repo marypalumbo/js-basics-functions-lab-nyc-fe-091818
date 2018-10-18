@@ -1,5 +1,7 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks () {
+const block = 264
+
+function distanceFromHqInBlocks (someValue) {
   
 }
 
@@ -14,3 +16,7 @@ function distanceTravelledInFeet() {
 }
 
 
+function calculatesFarePrice(start, destination) {
+  
+  
+}
