@@ -25,7 +25,6 @@ function distanceFromHqInFeet(currentBlock) {
   return numberOfBlocks * feetInBlock
 }
 
-
 function distanceTravelledInFeet() {
   
   
