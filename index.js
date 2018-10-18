@@ -1,8 +1,11 @@
 // Code your solution in this file!
-const block = 264
+const feetInBlock = 264
+const hq = 42
 
-function distanceFromHqInBlocks (someValue) {
-  
+// currentBlock=43rd street -- hq=42nd street
+
+function distanceFromHqInBlocks (currentBlock) {
+  return currentBlock - hq
 }
 
 function distanceFromHqInFeet() {
