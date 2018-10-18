@@ -13,8 +13,16 @@ function distanceFromHqInBlocks (currentBlock) {
   }
 }
 
-function distanceFromHqInFeet() {
-  
+function distanceFromHqInFeet(currentBlock) {
+  // figure out how many blocks away and then convert that into feet
+ let numberOfBlocks
+  if (currentBlock > hq) {
+    numberOfBlocks = currentBlock - hq
+  }
+  else {
+    numberOfBlocks = hq - currentBlock 
+  }
+  return numberOfBlocks * feetInBlock
 }
 
 
