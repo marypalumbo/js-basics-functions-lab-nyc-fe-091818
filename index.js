@@ -53,7 +53,7 @@ function calculatesFarePrice(startingBlock, destinationBlock) {
     }
     //cannot travel over 2500
     else if (numberOfFeet > 2500) {
-      return 'cannot travel that far'
+      return cannot travel that far
     }
     
   
