@@ -39,8 +39,13 @@ function calculatesFarePrice(startingBlock, destinationBlock) {
     const numberOfBlocks = Math.abs(startingBlock - destinationBlock)
     const numberOfFeet = numberOfBlocks * feetInBlock
     // first 400 feet are free 
-    if (numberOfFeet <= 400)
+    if (numberOfFeet <= 400) {
     return 0 
+    }
+    //if distance is between 400 and 2000ft, the price is $.02 per foot, and the first 400 are still free
+    
+    
+    
     
   
 }
