@@ -30,12 +30,17 @@ function distanceTravelledInFeet(block1, block2) {
   // 1360
   // 1. we want to get distance between blocks
   // 2. get the distance in feet
-  const NumberOfBlocks = Math.abs(block1 - block2)
-  return NumberOfBlocks * feetInBlock
-  
+  const numberOfBlocks = Math.abs(block1 - block2)
+  return numberOfBlocks * feetInBlock
 }
 
-function calculatesFarePrice(start, destination) {
-  
+function calculatesFarePrice(startingBlock, destinationBlock) {
+  // how far are they going?
+    const numberOfBlocks = Math.abs(startingBlock - destinationBlock)
+    const numberOfFeet = numberOfBlocks * feetInBlock
+    // first 400 feet are free 
+    if (numberOfFeet <= 400)
+    return 0 
+    
   
 }
