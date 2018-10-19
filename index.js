@@ -33,10 +33,7 @@ function distanceTravelledInFeet(block1, block2) {
   const NumberOfBlocks = Math.abs(block1 - block2)
   return NumberOfBlocks * feetInBlock
   
-  
-  
 }
-
 
 function calculatesFarePrice(start, destination) {
   
